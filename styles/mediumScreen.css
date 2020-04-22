@@ -1,0 +1,12 @@
+
+ 
+.main-cont {
+    background-color: #edf0f5;
+    display: grid;
+    padding: 0 20px;
+    grid-template-columns: 2fr 2fr 2fr;
+    justify-items: center;
+    grid-template-areas: 
+    ". controller ."
+    ". output ."
+}
